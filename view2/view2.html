@@ -1,0 +1,20 @@
+<div ng-controller="View1Ctrl">
+        <div class="col-md-12 padding-30">
+         <div ng-repeat="message in messages">
+            <p>Nome: {{ message.nome }}</p>
+            <p>Email: {{ message.email }}</p>
+            <p>Telefone: {{ message.telefone }}</p>
+            <a class="btn btn-danger" ng-click="removePessoas(message)">Remover</a>
+             <hr>
+
+         </div>
+
+
+<div class="alert alert-dismissible alert-info" ng-if="!messages.length">
+
+  <strong>Nenhum cadastro inserido</strong>
+</div>
+        </div>
+
+
+</div>

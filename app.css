@@ -1,0 +1,39 @@
+/* app css stylesheet */
+body {
+    background-color: #eee;
+}
+.navbar {
+    border-radius: 0px;
+}
+.box-central {
+    background: #fff;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.39);
+
+}
+.padding-30 {
+        padding: 30px;
+}
+.menu-lateral {
+    background: #ccc;
+    padding: 0;
+}
+.topo-conteudo {
+    padding: 0;
+}
+
+.box-full {
+    padding: 0;
+
+}
+.avatar {
+    padding: 30px 0;
+    background-color: rgb(2,119,189);
+    color: rgb(255,255,255);
+    font-weight: bold;
+}
+.badge {
+    background-color: #EF8080;
+}
+.alert {
+    margin-bottom: 0;
+}
