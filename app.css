@@ -14,8 +14,11 @@ body {
         padding: 30px;
 }
 .menu-lateral {
-    background: #ccc;
+    background: #fff;
     padding: 0;
+
+height: calc(100%);
+
 }
 .topo-conteudo {
     padding: 0;
@@ -23,6 +26,7 @@ body {
 
 .box-full {
     padding: 0;
+    height: 100%;
 
 }
 .avatar {
@@ -36,4 +40,7 @@ body {
 }
 .alert {
     margin-bottom: 0;
+}
+html, body {
+    height: 100%;
 }
